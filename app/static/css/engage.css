@@ -1,19 +1,23 @@
 
 .headeer{
-    padding:400px;
+    padding:300px;
     background-image: url('http://img.transcoder.opera.com/assets/v2/4177b52bba817b79aaa2e9bd9a4cd0e8');
     background-repeat: no-repeat;
     background-size: cover;
-     height:100vh
+     height:100vh;
+     text-align: center;
 }
 
 .card-title {
-  /* border-bottom: 1px solid black; */
   font-size: 60px;
   font-family: 'Playfair Display', serif;
   font-weight: bolder;
 }
 
+.log{
+    background-color: transparent;
+    border-radius: 20px;
+}
 
 
 h2{
@@ -28,19 +32,33 @@ p {
   text-align: center;
 }
 
+h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.border{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
 h2{
     font-family: 'Playfair Display', serif;
+    text-decoration: underline;
 }
 
 .card-text{
     font-weight: bold;
     font-family: 'Playfair Display', serif;
+    padding:20px;
 }
 
 .mission{
     margin-left:300px;
     border:1px solid black;
     padding:10px;
+    
 }
 
 .vision{
@@ -53,13 +71,30 @@ h2{
     padding:10px;
     border:1px solid black;
 }
-h1{
+h1,h3{
     font-family: 'Playfair Display', serif;
 }
 
+h1{
+    color:white;
+    font-size: 120px;
+    font-weight: bolder;
+    border-bottom: 1px solid white;
+}
+h3{
+    font-weight: bolder;
+   border-bottom: 1px solid black;
+    font-size: 50px;
+}
 
 .future{
     padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+.graph{
+    font-size: 20px;
+    font-weight: bold;
 }
 h4{
     padding-right:50px;
@@ -74,6 +109,8 @@ h4{
     font-family: 'Playfair Display', serif;
     font-size: larger;
     font-weight: bolder;
+    color:white;
+    font-size: 30px;
 }
 .all{
     display: inline-flex;
@@ -104,6 +141,8 @@ h4{
 
 .footer{
     text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 .col-md-12{
